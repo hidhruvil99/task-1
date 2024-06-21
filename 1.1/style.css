@@ -1,0 +1,421 @@
+* {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(103, 106, 108, 0.8);
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f4;
+  height: 650px;
+  /* height: 2000px; */
+  margin: 0px;
+}
+.main {
+  padding: 3% 0%;
+  width: 100%;
+  height: 23.5%;
+}
+.content {
+  display: inline-block;
+  height: 76.5%;
+}
+/* .main:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+.profile-img {
+  border: 0.4vw solid #ffffff;
+  border-radius: 50%;
+  margin-right: 3%;
+  float: left;
+  width: 14.4%;
+  height: auto;
+}
+
+.first {
+  font-size: 95%;
+  box-sizing: border-box;
+  padding: 0% 2%;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+table {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  padding: 4% 2%;
+  width: 25%;
+  float: left;
+}
+td {
+  font-size: 92%;
+  border-top: 1px solid rgba(62, 61, 61, 0.2);
+  padding-right: 11%;
+  padding-top: 4%;
+}
+.third {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0% 0% 0% 2%;
+  width: 25%;
+  float: left;
+  clear: right;
+}
+.third img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  width: 26%;
+  float: left;
+  padding: 2% 1.2% 0% 1.5%;
+}
+.card1 {
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px grey;
+  font-size: 19px;
+  padding: 5% 5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+.card2 {
+  background-color: white;
+  padding: 5% 5%;
+  box-shadow: 0px 0px 3px 0px grey;
+  font-size: 120%;
+  margin-top: 5%;
+  width: 100%;
+  display: inline-block;
+}
+.online-status {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: #1ab394;
+  border-radius: 50%;
+}
+.clearfix {
+  overflow: auto;
+}
+.comment {
+  width: 42.5%;
+  height: auto;
+  float: left;
+  padding: 2% 1% 0% 1.2%;
+  display: inline-block;
+}
+.article1 {
+  width: 100%;
+  background-color: white;
+  padding: 2% 2%;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+.article2 {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 2% 2%;
+  box-shadow: 0px 0px 3px 0px grey;
+  height: auto;
+}
+
+.article1 > img {
+  width: 9%;
+  height: auto;
+  float: left;
+}
+.article1 > .intro > b {
+  float: left;
+  float: top;
+  font-size: 100%;
+  color: #3e81bb;
+}
+abbr {
+  font-size: 70%;
+  margin-top: 1%;
+  float: bottom;
+}
+.article2 > .f-comm > img {
+  width: 6%;
+  height: auto;
+  float: left;
+}
+
+.article2 > .f-comm > p {
+  margin: 0% 0%;
+}
+.article2 > .s-comm > img {
+  width: 6%;
+  height: auto;
+  float: left;
+
+  display: flex;
+}
+.article2 > .t-comm > img {
+  width: 6%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+  padding-top: 0%;
+}
+.article2 > .s-comm > b {
+  float: left;
+  float: top;
+  font-size: 80%;
+  color: #3e81bb;
+}
+.article2 > .s-comm > p {
+  margin: 0% 0%;
+}
+
+.droptag {
+  border: 1px solid rgb(166, 166, 166);
+  float: right;
+  margin-top: -5%;
+  text-align: center;
+  opacity: 0.5;
+  width: 5%;
+  padding: 0.7% 0.5% 0.5% 0.5%;
+}
+.intro {
+  margin-top: 1.5%;
+  padding-left: 12%;
+  margin-bottom: 4%;
+}
+.article p {
+  font-size: 80%;
+}
+
+.like {
+  display: flex;
+  width: 100%;
+}
+
+.button {
+  margin: 0 -0.2px;
+  padding: 5px 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 80%;
+}
+p {
+  font-size: 13px;
+}
+small {
+  color: #3e81bb;
+  padding-left: 0%;
+}
+.s-comm {
+  margin-top: 2%;
+  height: auto;
+}
+.t-comm {
+  margin-top: 4%;
+}
+textarea {
+  width: 90%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: both;
+  padding: 2%;
+}
+.grid-container img {
+  border-radius: 150%;
+  width: 100%;
+}
+.grid-container {
+  float: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 5%;
+  width: 90%;
+}
+.l-column {
+  content: inherit;
+  float: left;
+  width: 31.5%;
+  padding: 2% 1% 0% 1.2%;
+  height: 100%;
+}
+
+.meeting {
+  height: auto;
+  padding: 0% 1% 0% 0%;
+  width: 96.5%;
+  float: left;
+  overflow: auto;
+}
+.meeting::before {
+  background-color: #e7eaec;
+  content: "";
+  display: flex;
+  width: 5px;
+  height: 400px;
+  margin: auto;
+  margin-right: 1%;
+  margin-left: 5%;
+  float: left;
+  z-index: -1;
+  position: sticky;
+}
+
+.card3 {
+  background-color: white;
+
+  display: inline-block;
+  font-size: 110%;
+  padding: 5% 5%;
+  margin-bottom: 10%;
+  width: 94%;
+  height: auto;
+}
+
+.card4 {
+  background-color: white;
+
+  display: inline-block;
+  font-size: 110%;
+  padding: 5% 5%;
+  width: 94%;
+  height: auto;
+}
+button {
+  background-color: #1ab394;
+  width: 30%;
+  float: right;
+  padding: 2%;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.icon-g1 {
+  display: block;
+  width: 0.3%;
+  height: 0.5%;
+  background: #1ab394;
+  border-radius: 50%;
+  align-items: center;
+  padding: 3% 7% 3% 3%;
+  margin-left: -7%;
+  margin-right: 5%;
+}
+.icon-b1 {
+  display: block;
+  width: 0.3%;
+  height: 0.5%;
+  background: hsl(168, 75%, 40%);
+  border-radius: 50%;
+  justify-content: center;
+  padding: 3% 7% 3% 4%;
+  margin-left: -7%;
+  margin-right: 5%;
+}
+#i1 {
+  display: flex;
+  float: left;
+  color: #ffffff;
+  font-size: 200%;
+  margin-top: 1%;
+  margin-right: -1.5%;
+}
+#i2 {
+  display: flex;
+  float: left;
+  color: #ffffff;
+  font-size: 200%;
+  margin-top: 1%;
+  margin-right: -1.5%;
+}
+@media (max-width: 800px) {
+  .about,
+  .comment,
+  .l-column {
+    width: 100%;
+    /* max-height: 60%; */
+height: auto;
+    float: top;
+    margin-top: 5%;
+  }
+
+  .main {
+    height: auto;
+    padding: 2% 3%;
+    float: top;
+    display: flex;
+  }
+  .content {
+    height: 80%;
+    padding: 2%;
+    float: top;
+  }
+  .grid-container {
+    gap: 5%;
+    width: 100%;
+  }
+  .card1 {
+    width: 48%;
+    float: left;
+    margin: 0px 2% 0px 0px;
+    padding: 3%;
+  }
+  .card2 {
+    width: 48%;
+    float: left;
+    margin: 0px 0px 0px 2%;
+    padding: 3%;
+  }
+ 
+  .first {
+    margin-bottom: 7%;
+    width: 100%;
+    padding: 0%;
+  }
+  table{
+    width: 100%;
+    padding: 200px;
+  }
+  .third {
+    margin-top: 7%;
+    width: 100%;
+    padding: 0%;
+  }
+  body {
+    height: 1000px;
+  }
+  .icon-b {
+    bottom: 40%;
+  }
+  .icon-line {
+    width: 10%;
+  }
+  .meeting {
+    width: 90%;
+    padding: 0%;
+  }
+  .card3 {
+    float: left;
+    width: 100%;
+    margin-left: -2%;
+  }
+  .card4 {
+    float: left;
+    width: 100%;
+    margin-left: -2%;
+  }
+  #i1{
+    margin-right: 1%;
+    color: #ffffff;
+  }
+  #i2{
+    color: #ffffff;
+    margin-right:1%;
+  }
+}
+@media (min-width: 2000px) {
+  body {
+    height: 1000px;
+  }
+}
